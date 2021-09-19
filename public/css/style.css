@@ -1,0 +1,22 @@
+@charset "utf-8";
+
+table {
+   table-layout: fixed;
+   width: 100%;
+}
+
+
+ label {
+    display: block;
+}
+
+button-group {
+    display: flex;
+}
+.button-group button {
+    margin-right: 10px;
+}
+
+.error {
+     color: red;
+ } 
