@@ -27,9 +27,7 @@
         <b>重量：{{ $planet->weight }}</b>
     </p>
 
-    
     <p><b><a href="/planets">戻る</a></b></p>
-    
 
 </body>
 

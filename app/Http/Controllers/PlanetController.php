@@ -57,7 +57,7 @@ class PlanetController extends Controller
         // 値の用意
         $planet->name = $request->name;
         $planet->englishname = $request->englishname;
-        $planet-> radius= $request->radius;
+        $planet->radius= $request->radius;
         $planet->weight = $request->weight;
 
         // 保存
@@ -67,8 +67,8 @@ class PlanetController extends Controller
         return redirect('/planets');
     }
 
-        public function destroy($id)
-        {
+    public function destroy($id)
+    {
         $planet = Planet::find($id);
         $planet->delete();
 

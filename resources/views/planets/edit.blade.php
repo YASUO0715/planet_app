@@ -32,7 +32,6 @@
         <input type="hidden" name="id" value="{{ $planet->id }}">
         <p>
             <label for="name">名前 <input type="text" name="name" value="{{ old('name', $planet->name) }}"></label>
-            
         </p>
         <p>
             <label for="englishname">名前(英名) <input type="text" name="englishname" value="{{ old('englishname',$planet->englishname) }}"></label>
