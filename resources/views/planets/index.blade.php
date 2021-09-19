@@ -43,6 +43,7 @@
         @endforeach
     </ul>
     <a href="/planets/create">新規登録</a>
+    
 </body>
 
 </html>
